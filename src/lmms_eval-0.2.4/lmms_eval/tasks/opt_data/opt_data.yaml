@@ -1,0 +1,31 @@
+dataset_path: pathTo/llava_data
+
+task: "opt_data"
+dataset_kwargs:
+  token: True
+test_split: train
+output_type: generate_until
+doc_to_visual: !function utils.opt_data_doc_to_visual
+doc_to_text: !function utils.opt_data_doc_to_text
+doc_to_target: "answer"
+process_results: !function utils.opt_data_process_results
+  
+lmms_eval_specific_kwargs:
+  default:
+    pre_prompt: ""
+    post_prompt: ""
+
+
+generation_kwargs:
+  max_new_tokens: 2048
+  temperature: 0
+  do_sample: False
+
+
+metric_list:
+  - metric: average
+    aggregation: !function utils.opt_data_aggregate_results 
+    higher_is_better: true
+
+metadata:
+  - version: 0.0
