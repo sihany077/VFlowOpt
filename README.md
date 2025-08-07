@@ -8,7 +8,7 @@
   <!-- <b>Authors</b><br> -->
   <a href="https://github.com/sihany077" target="_blank">Sihan Yang<sup>1</sup></a>,
   <a href="https://runsenxu.com" target="_blank">Runsen Xu<sup>1,2</sup></a>,
-  <a href="https://github.com/kuaikuaixym" target="_blank">Chenhang Cui<sup>3</sup></a>,
+  <a href="https://gzcch.github.io/" target="_blank">Chenhang Cui<sup>3</sup></a>,
   <a href="https://tai-wang.github.io/" target="_blank">Tai Wang<sup>1†</sup></a>,
   <a href="http://dahua.site/" target="_blank">Dahua Lin<sup>1,2</sup></a>,
   <a href="https://oceanpang.github.io/" target="_blank">Jiangmiao Pang<sup>1†</sup></a>
