@@ -26,8 +26,8 @@
 
 
 <p align="center">
-  <a href="">📑 Paper</a>  |
-  <a href="">📖 arXiv</a>
+  <a href="https://arxiv.org/pdf/2508.05211">📑 Paper</a>  |
+  <a href="https://arxiv.org/abs/2508.05211">📖 arXiv</a>
 </p>
 
 
